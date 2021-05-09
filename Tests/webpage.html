@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title> Team 1's HTML webpage</title>
+    <link rel="stylesheet" href="abbie.css">
+    <link rel="stylesheet" href="mitchell.css">
+    <link rel="stylesheet" href="steven.css" >
+    <!-- Mark Comment: there's no evidence that Mitchell and Abbie know how to define classes and ids.-->
+   
+   <style>
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            color: brown;
+            margin: 50px;
+        }
+    </style>
+    <meta charset="utf-8">
+</head>
+
+<!--start of Mitchell's section-->
+<body>
+    <header>
+        <h1 style = "color: cadetblue;" >This is Mitchell's Section Header</h1>
+            <h2>
+                Bum... Bum bum bum buuuuuuum.
+            </h2>
+        <img src="images/Pentium_II_original_case_badge.png" alt="Pentium">
+        <div>
+            <h3>
+                May as well add my divider here and all.
+            </h3>
+            Remember when Intel used to be cool?
+        </div>
+        <h4>
+            Yeah me too.
+        </h4>
+    </header>
+    <!--Mark Comment: now that you're using CSS, you want to stop using the border and width attributes and rely as much as possible on stylesheets to format how an element appears on the page.-->
+    <table border="10" width="40%">
+        <tr>
+            <th>Month</th>
+            <th>Tuition</th>
+        </tr>
+        <tr>
+            <td>April</td>
+            <td>$0</td>
+        </tr>
+    </table>
+    <ol start="1">
+        <li>Eggs</li>
+        <li>Toast</li>
+        <li>Milk</li>
+    </ol>
+    <!--end of Mitchell's section-->
+    <p>We <em>are</em> Number one!</p>
+    =======
+
+    <!--Start of Abbie's Section-->
+    <div style="background-color: lightcoral;">
+
+        <h1 id="h1id"> <strong> Abbie's Section Header </strong> </h1>
+
+        <div> Whooop. Here's my divider y'all! </div>
+
+        <p class="firstp"> Here's <strong>MY</strong> paragraph! <em>Super cool!</em> lol. Down below is my table! I
+            tried to make it <span style="color: aqua">AQUA</span> but failed lol.</p>
+
+        <table>
+            <tr>
+                <th> My </th>
+                <th> Pretty </th>
+                <th> Cool </th>
+                <th> Table </th>
+            </tr>
+            <tr>
+                <td> Hi </td>
+                <td> There </td>
+                <td> Look </td>
+                <td> At </td>
+            </tr>
+            <tr>
+                <td> My </td>
+                <td> Pretty </td>
+                <td> Cool </td>
+                <td> Table </td>
+            </tr>
+        </table>
+
+        <h2> Here's my unordered list of my favourite fruits</h2>
+        <ul>
+            <li>Mangoes</li>
+            <li>Bananas</li>
+            <li>Papayas</li>
+            <li>Literally most fruits lol except avocadoes</li>
+        </ul>
+
+        <h2> Here's my ordered list of things I need to do today </h2>
+
+        <ol>
+            <li>Homework</li>
+            <li>Grocery Shopping</li>
+            <li>Get my nails done</li>
+            <li>Sleeeeeep</li>
+        </ol>
+
+        <p>
+            OOOOOOO you thought I was done? Here's a picture of a mango!
+        </p>
+
+        <img src="https://agfstorage.blob.core.windows.net/misc/FP_es/2021/03/30/emextext.jpeg" alt="Picture of mango!"
+            title="Monaco!" style="width:400px; height:400px;">
+    </div>
+    <!--End of Abbie's Section-->
+
+    <!--Start of Steven's Section-->
+    <h1 style="color:yellow;">Steven's Section Header</h1>
+
+    <p>Here comes <strong>My Section!</strong> <em> Shhh, my stuff is about to come up...</em></p>
+
+    <div>Here is my divider</div>
+
+    <table>
+        <thead>
+            <tr>
+                <!--Mark's Comment: for the first row in a table, you want to specify how many columns wide the table is. This single th tag means that this table is only one column wide, but in the next row down, you specify 4 td tags, which is confusing. If you want this single th tag to span across 4 columns, you should put the attribute colspan="4" within the th element.-->
+                <th colspan="4" class="steven">Steven's Table</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>This</td>
+                <td>is</td>
+                <td>my</td>
+                <td><strong>table</strong></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>My favorite games</h1>
+    <ul>
+        <li id="steven2">League of Legends</li>
+        <li>The Witcher 3</li>
+        <li>God of War</li>
+    </ul>
+
+    <h1 class="steven">My favourite places</h1>
+    <ol>
+        <li>Shanghai</li>
+        <li>Tokyo</li>
+        <li>Seattle</li>
+    </ol>
+
+    <img src="https://www.uwb.edu/getattachment/admissions/apply/w-header-for-apply-page.jpg?lang=en-US&width=750&height=282"
+        alt="UW Bothell">
+
+    <!--End of Steven's Section-->
+
+</body>
+
+</html>
