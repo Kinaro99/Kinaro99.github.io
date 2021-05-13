@@ -24,17 +24,17 @@ p.firstp {
 .tableA {
     margin: auto;
     font-size: 20px;
-    border: 5px solid darkblue;
+    border: 2px solid black;
 }
 
 .tableA th {
-    color: firebrick;
+    color: black;
     text-align: center;
-    border: 5px solid blue;
+    border: 2px solid black;
 }
 
 .tableA td {
-    color: firebrick;
+    color: black;
     text-align: left;
-    border: 5px solid blue;
+    border: 2px solid black;
 }
