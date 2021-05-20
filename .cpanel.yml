@@ -2,5 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/goodmorn/public_html/
-    - /bin/cp webpage.html $DEPLOYPATH
-    - /bin/cp abbiee.css $DEPLOYPATH
+    - /bin/cp -R Tests $DEPLOYPATH
