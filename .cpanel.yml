@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/goodmorn/public_html/
-    - /bin/cp -R Tests $DEPLOYPATH
