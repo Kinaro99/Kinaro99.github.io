@@ -13,10 +13,10 @@
 
     <style>
         .fakePicture {
-          height: 200px;
-          background: pink;
+            height: 200px;
+            background: pink;
         }
-        </style>
+    </style>
 </head>
 
 <body>
@@ -29,16 +29,13 @@
         <div class="collapse navbar-collapse" id="navb">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link"
-                        href="main.html">Home</a>
+                    <a class="nav-link" href="main.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link"
-                        href="supplies.html">GMorning Healthcare Supplies</a>
+                    <a class="nav-link" href="supplies.html">GMorning Healthcare Supplies</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link"
-                        href="consultancy.html">GMorning Consultancy</a>
+                    <a class="nav-link" href="consultancy.html">GMorning Consultancy</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -49,30 +46,65 @@
     </nav>
 
     <div class="jumbotron text-center">
-        <h1> Good Morning Consultancy</h1>
-        <p> Final Project for BIMD 233!</p>
+        <h1>Good Morning Healthcare Consultancy</h1>
+        <p>Welcome to the first draft of Good Morning Healthcare Consultancy site. We haven't officially started the
+            consultancy section. As we grow and devleop this area, the site will be updated. Thanks for your patience!
+        </p>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-4" style="background-color:lightskyblue;">
-                <h3>Shop by Category</h3>
-                <p></p>
-                <div class="fakePicture">Image Coming Soon</div>
+    <div class="container contact-form">
+        <div class="contact-image"></div>
+        <form method="post">
+            <h3>Drop Us a Message</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *"
+                            value="" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <textarea name="txtMsg" class="form-control" placeholder="Your Message *"
+                            style="width: 100%; height: 150px;"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                </div>
             </div>
-            <div class="col-sm-4" style="background-color:lightskyblue;">
-                <h3>Shop by Brand</h3>
-                <p></p>
-                <div class="fakePicture">Image Coming Soon</div>
-            </div>
-            <div class="col-sm-4" style="background-color:lightskyblue;">
-                <h3>Shop by Illness</h3>
-                <p></p>
-                <div class="fakePicture">Image Coming Soon</div>
-            </div>
+        </form>
+        Code for Form gotten from <a href="https://bootsnipp.com/snippets/7nmOW">here</a>!
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin:24px 0;">
+        <a class="navbar-brand" href="javascript:void(0)"></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbottom">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="main.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="supplies.html">GMorning
+                        Healthcare Supplies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="consultancy.html">GMorning
+                        Consultancy</a>
+                </li>
+            </ul>
         </div>
-    </div>
-
+    </nav>
 </body>
 
 </html>
